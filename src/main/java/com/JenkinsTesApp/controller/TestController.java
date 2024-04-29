@@ -11,5 +11,10 @@ public class TestController {
         return "test 1";
 
     }
+    @GetMapping("/test2")
+    public String testApp2(){
+        return "test 2";
+
+    }
 
 }
